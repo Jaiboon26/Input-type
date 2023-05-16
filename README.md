@@ -48,4 +48,4 @@
 
 ## Contact
 
-- GitHub [Jaiboon26](https://{github.com/Jaiboon26})
+- GitHub [Jaiboon26](https://github.com/Jaiboon26)
