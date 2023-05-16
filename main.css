@@ -1,0 +1,135 @@
+h1 {
+    margin-left: 10px;
+}
+
+div {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+label {
+    text-align: left;
+}
+
+span {
+    font-size: 12px;
+    color: #828282;
+}
+
+input {
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 56px;
+
+    /* Gray 3 */
+
+    border: 1px solid #828282;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+input:disabled {
+    background: #F2F2F2;
+}
+
+input::placeholder {
+    width: 80px;
+    height: 20px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #828282;
+
+}
+
+
+.hoverable:hover {
+    border: 1px solid #2962FF;
+}
+
+.focused:focus {
+    background-color: #89a8ff;
+    color: white;
+}
+
+.focused:focus::placeholder {
+    color: white;
+}
+
+.input-error {
+    border: 1px solid #D32F2F;
+}
+
+.hover-error:hover {
+    border: 1px solid #D32F2F;
+}
+
+.focus-error:focus {
+    background-color: #D32F2F;
+    color: white;
+
+}
+
+.focus-error:focus::placeholder {
+    color: white;
+}
+
+.lb-hover-error {
+    color: #D32F2F;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48;
+    color: rgb(0, 0, 0);
+    background-color: rgb(194, 191, 191);
+
+
+    padding-top: 11px;
+    padding-bottom: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: inline-block;
+    text-align: center;
+
+    border-radius: 8px;
+}
+
+.input-icon-call {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.input-icon-lock {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.call-icon {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.lock-icon{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.full-width{
+    width: 100%;
+}
+
+textarea{
+    border-radius: 8px;
+    padding: 10px;
+    resize: none;
+}
